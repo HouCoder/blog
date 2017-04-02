@@ -2,6 +2,10 @@
 
 ## 目录
 
+### 前端
+
+1. [避免在桌面浏览器使用 tel 链接](front-end/avoid-using-tel-link-for-desktop-browers.md)
+
 ### 生活
 
 1. [上海市居住证办理指南](life/getting-a-shanghai-residence-permit.md)
