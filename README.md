@@ -10,6 +10,9 @@
 
 1. [上海市居住证办理指南](life/getting-a-shanghai-residence-permit.md)
 
+### 😊 Hacking
+
+1. [自动下载 YouTube 视频](hacking/auto-download-youtube-videos.md)
 
 ## LICENSE
 
