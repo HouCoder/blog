@@ -1,8 +1,8 @@
 # Photos took too much space on your iPhone
 
-**This solution requires a Mac 🖥️**
+**⚠️ This solution requires a Mac 🖥️**
 
-I’m using an iPhone 6 Plus with 64GB onboard storage, recently my phone ran out of storage, I have few apps, no movie, no music. After digging into the storage usage details, I realized the Photos app took about 43.44GB of storage! that’s insane, I subscribed the 50GB iCloud subscription and set `Optimize iPhone Storage` in Photos app, it should upload my photos to iCloud, delete the originals and just keep thumbnail photos, but apparently, it’s not working as Apple advertised.
+I’m using an iPhone 6 Plus with 64GB onboard storage, recently my phone ran out of storage, I have few apps, no movie, no music. After digging into the storage usage details, I realized the Photos app has taken about 43.44GB of storage! that’s insane, I subscribed the 50GB iCloud subscription and set `Optimize iPhone Storage` in Photos app, it should upload my photos to iCloud, delete the originals and just keep thumbnail photos, but apparently, it’s not working as Apple advertised.
 
 ![](./photos-took-too-much-space-on-your-iphone/storage-detail-before.jpg)
 
