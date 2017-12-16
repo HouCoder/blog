@@ -13,6 +13,7 @@
 ### 😊 Hacking
 
 1. [自动下载 YouTube 视频](hacking/auto-download-youtube-videos.md)
+1. [Photos took too much space on your iPhone](hacking/photos-took-too-much-space-on-your-iphone.md)
 
 ## LICENSE
 
