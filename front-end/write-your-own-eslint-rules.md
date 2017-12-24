@@ -66,6 +66,8 @@ module.exports = (context) => {
 ```
 `Identifier` 表示规则作用于所有的 `type` 为 `Identifier` 的节点上，一旦发现 Identifier 节点的 `name` 属性为 `getElementsBy*` 就会报错。
 
+调用更多内置的 API 方法可以查阅 [Working with Rules](https://eslint.org/docs/developer-guide/working-with-rules)。
+
 使用编辑器编辑项目根目录的 index.js：
 
 ```js
