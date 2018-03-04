@@ -16,6 +16,7 @@
 1. [自动下载 YouTube 视频](hacking/auto-download-youtube-videos.md)
 1. [Photos took too much space on your iPhone](hacking/photos-took-too-much-space-on-your-iphone.md)
 1. [使用 Charles 重定向（map）网络请求至本地/远程资源](hacking/map-requests-in-charles.md)
+1. [Speed up your CI build process](./hacking/speed-up-your-ci-build-process.md)
 
 ## LICENSE
 
