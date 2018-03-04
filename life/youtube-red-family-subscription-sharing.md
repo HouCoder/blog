@@ -33,3 +33,8 @@ YouTube Red 只支持下列国家：
 #### 微信
 
 ![wechat-pay](./youtube-red-family-subscription-sharing/wechat-pay.JPG)
+
+### 注意事项
+
+1. Telegram 是唯一联络方式，请保持您的 Telegram 畅通。
+1. 下车需提前一个月通知群主。
