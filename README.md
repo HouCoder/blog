@@ -17,6 +17,7 @@
 1. [Photos took too much space on your iPhone](hacking/photos-took-too-much-space-on-your-iphone.md)
 1. [使用 Charles 重定向（map）网络请求至本地/远程资源](hacking/map-requests-in-charles.md)
 1. [Speed up your CI build process](./hacking/speed-up-your-ci-build-process.md)
+1. [如何在 Mac 下更改特定应用语言首选项](./hacking/hacking/change-language-preference-in-mac.md)
 
 ## LICENSE
 
