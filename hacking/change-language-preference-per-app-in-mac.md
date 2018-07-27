@@ -5,7 +5,8 @@
 为了在开发时更好的贴近终端用户所看到的效果决定将 Chrome 的语言更改为中文，但是 Mac 下面的 Chrome 不像 Windows 上的一样，不能直接在设置里面修改的。
 
 Mac 版的 Chrome 下是没有”以这种语言显示 Google Chrome” 选项的。
-!()[./change-language-preference-per-app-in-mac/chrome-windows.png]
+
+![截图](./change-language-preference-per-app-in-mac/chrome-windows.png)
 
 经过一番搜索终于发现了解决办法， 其实很简单，只需要执行一个命令即可：
 
