@@ -17,7 +17,7 @@ $ defaults write com.google.Chrome AppleLanguages '(zh-CN)'
 中间的 `com.google.Chrome` 是应用的 bundle identifier，这个方法同样适用于其它的 mac 应用，如果想要更改其它应用的语言首选项只需通过下面的命令即可查询对应的 bundle identity：
 
 ```
-/usr/libexec/PlistBuddy -c 'Print CFBundleIdentifier' /Applications/Google\ Chrome.app/Contents/Info.plist
+$ /usr/libexec/PlistBuddy -c 'Print CFBundleIdentifier' /Applications/Google\ Chrome.app/Contents/Info.plist
 ```
 
 将后面的 `/Applications/Google\ Chrome.app/Contents/Info.plist` 替换为目标应用的 Info.plist 路径即可。
