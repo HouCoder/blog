@@ -17,17 +17,17 @@
 
 ## 操作步骤
 
-#1 安装 adb 工具 
+### 1 安装 adb 工具 
 
 Mac 下使用 brew 安装即可：
 
     $ brew install android-platform-tools
 
-#2 下载 Armbian
+### 2 下载 Armbian
 
 镜像列表：[https://yadi.sk/d/pHxaRAs-tZiei/5.44/kernel_3.14_20180729](https://yadi.sk/d/pHxaRAs-tZiei/5.44/kernel_3.14_20180729) ，我下载的是 Armbian_5.44_S9xxx_Debian_stretch_3.14.29_server_20180729.img ，下载 3.14 内核版本的原因是 wifi 和 蓝牙在这个版本下都可以正常工作。
 
-#3 降级
+### 3 降级
 
 N1 系统版本号大于 V2.22 的都需要降级，否则不能刷机。
 
@@ -62,7 +62,7 @@ N1 系统版本号大于 V2.22 的都需要降级，否则不能刷机。
 
 ⚠️降级完成后开机显示的固件版本依然显示的是和之前的一样的，不过不用担心，这里的降级是降级引导等关键分区，所以系统版本那里是不会变的。
 
-#4 制作 Armbian 启动盘
+### 4 制作 Armbian 启动盘
 
 将 U 盘插入 Mac，打开系统概况 → USB 一栏，记住这里的 BSD Name 值：
 
@@ -79,7 +79,7 @@ N1 系统版本号大于 V2.22 的都需要降级，否则不能刷机。
 
     dd: /dev/disk2: Resource busy
 
-#5 启动至 Armbian
+### 5 启动至 Armbian
 
 插入 U 盘到 N1，继续在执行命令即可进入 Armbian：
 
@@ -89,7 +89,7 @@ N1 系统版本号大于 V2.22 的都需要降级，否则不能刷机。
 
 默认用户名为 root，密码为 `1234` ，在路由器中查看 N1 的 IP 然后使用 SSH 登陆，登陆后会有向导提示更改密码和创建一个新的用户，这里我们就只更改密码即可，创建新用户那一步可以忽略。
 
-#6 安装 Armbian 至内部 eMMC 存储
+### 6 安装 Armbian 至内部 eMMC 存储
 
 ⚠️ 这一步后我们会彻底删除内置的安卓系统，只保留 Armbian 系统，如果想刷回来也可以找工具刷回原版系统，这里就不介绍了。
 
@@ -144,9 +144,9 @@ SSH 登陆系统，先检查文件权限是否正常，正常的文件所有者�
 
 关机，拔掉 U 盘，重新插拔电源开机即可进入内置 eMMC 安装的 Armbian 系统，进入 Armbian 后再次仔细检查文件目录权限，确保文件权限正常。
 
-##7 扩展分区与额外设置
+### 7 扩展分区与额外设置
 
-###7.1 扩展分区
+#### 7.1 扩展分区
 
 登陆安装在 eMMC 的 Armbian 后可以看到磁盘空间已经不多了：
 
@@ -172,7 +172,7 @@ SSH 登陆系统，先检查文件权限是否正常，正常的文件所有者�
 
     /dev/system     1.2G  3.8M  1.2G   1% /home
 
-###7.2 启用 WIFI
+#### 7.2 启用 WIFI
 
 执行下面的命令加载 WIFI 驱动：
 
@@ -182,18 +182,18 @@ SSH 登陆系统，先检查文件权限是否正常，正常的文件所有者�
 
     root@aml:~# iwlist wlan0 scan
 
-###7.3 禁用红外
+#### 7.3 禁用红外
 
 N1 没有红外，所以我们要禁用它：
 
     root@aml:~# systemctl stop lircd.service lircd-setup.service lircd.socket lircd-uinput.service lircmd.service
     root@aml:~# apt remove -y lirc && apt autoremove -y
 
-###7.4 设置时区
+#### 7.4 设置时区
 
     root@aml:~# echo "Asia/Shanghai" > /etc/timezone && ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 
-###7.4 更改默认 DNS
+### #7.5 更改默认 DNS
 
 Armbian 使用谷歌的 8.8.8.8 作为默认的 DNS，因为你懂的原因这个 DNS 服务器不好用，我们要更改默认的 DNS。
 
