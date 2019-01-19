@@ -35,7 +35,7 @@ N1 系统版本号大于 V2.22 的都需要降级，否则不能刷机。
 
 下载降级固件，链接（需翻墙）： [https://www.dropbox.com/s/5lj8rui0tgmolwt/N1_V2.19_imgs.zip?dl=0](https://www.dropbox.com/s/5lj8rui0tgmolwt/N1_V2.19_imgs.zip?dl=0) 。
 
-接上鼠标、网线和电源，使用双公 USB 与 Mac 的 USB 接口连接好，开机后快速连续点击固件版本一栏四下打开 adb。
+接上鼠标、网线和电源，使用双公 USB 与 Mac 的 USB 接口连接好（接入靠近 HDMI 的 USB），开机后快速连续点击固件版本一栏四下打开 adb。
 
 打开 Mac 终端，开始降级：
 
