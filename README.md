@@ -5,6 +5,7 @@
 
 ----
 
+- [Clash 作为网关](hacking/clash-as-your-gateway-and-dns-server.md)
 - [避免在桌面浏览器使用 tel 链接](front-end/avoid-using-tel-link-for-desktop-browers.md)
 - [编写自定义 ESLint 规则](front-end/write-your-own-eslint-rules.md)
 - [上海市居住证办理指南](life/getting-a-shanghai-residence-permit.md)
